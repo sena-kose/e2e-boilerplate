@@ -1,0 +1,22 @@
+2022-04-30T16:15:42.899Z ERROR @wdio/runner: Error: Unable to load spec files quite likely because they rely on `browser` object that is not fully initialised.
+`browser` object has only `capabilities` and some flags like `isMobile`.
+Helper files that use other `browser` commands have to be moved to `before` hook.
+Spec file(s): C:\NODE.JS\e2e-boilerplate (1)\e2e-boilerplate\test\loginModule.spec.ts
+Error: TSError: ⨯ Unable to compile TypeScript:
+test/loginModule.spec.ts(10,9): error TS2304: Cannot find name 's'.
+
+    at createTSError (C:\NODE.JS\e2e-boilerplate (1)\e2e-boilerplate\node_modules\ts-node\src\index.ts:434:12)
+    at reportTSError (C:\NODE.JS\e2e-boilerplate (1)\e2e-boilerplate\node_modules\ts-node\src\index.ts:438:19)
+    at getOutput (C:\NODE.JS\e2e-boilerplate (1)\e2e-boilerplate\node_modules\ts-node\src\index.ts:578:36)
+    at Object.compile (C:\NODE.JS\e2e-boilerplate (1)\e2e-boilerplate\node_modules\ts-node\src\index.ts:775:32)
+    at Module.m._compile (C:\NODE.JS\e2e-boilerplate (1)\e2e-boilerplate\node_modules\ts-node\src\index.ts:858:43)
+    at Module.m._compile (C:\NODE.JS\e2e-boilerplate (1)\e2e-boilerplate\node_modules\ts-node\src\index.ts:858:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions.<computed> (C:\NODE.JS\e2e-boilerplate (1)\e2e-boilerplate\node_modules\ts-node\src\index.ts:861:12)
+    at Object.require.extensions.<computed> [as .ts] (C:\NODE.JS\e2e-boilerplate (1)\e2e-boilerplate\node_modules\ts-node\src\index.ts:861:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at MochaAdapter._loadFiles (C:\NODE.JS\e2e-boilerplate (1)\e2e-boilerplate\node_modules\@wdio\mocha-framework\build\index.js:86:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at MochaAdapter.init (C:\NODE.JS\e2e-boilerplate (1)\e2e-boilerplate\node_modules\@wdio\mocha-framework\build\index.js:55:9)
+    at Object.adapterFactory.init (C:\NODE.JS\e2e-boilerplate (1)\e2e-boilerplate\node_modules\@wdio\mocha-framework\build\index.js:318:22)
+    at Runner.run (C:\NODE.JS\e2e-boilerplate (1)\e2e-boilerplate\node_modules\@wdio\runner\build\index.js:83:27)

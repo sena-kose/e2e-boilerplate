@@ -1,0 +1,3 @@
+2022-04-30T16:47:02.615Z ERROR webdriver: Request failed with status 404 due to no such window: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.127)
